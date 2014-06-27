@@ -1,9 +1,8 @@
 extends layout
 
 block content
-  h1= product
-  p #{productId}
+  p #{product.name}
+  p #{product.price} #{product["currency-unit"]}
 
   button(class="btn btn-default", data-action="bea").
     buy
-
