@@ -1,8 +1,9 @@
 extends layout
 
 block content
-  p #{product.name}
-  p #{product.price} #{product["currency-unit"]}
-
-  button(class="btn btn-default", data-action="bea").
+  p(id="name")
+  p(id="price")
+  p(id="currency-unit")
+  button(class="btn btn-default", id="buy" data-action="bea").
     buy
+  script(src="/javascripts/product.js").
