@@ -11,6 +11,12 @@ customizable point system
 
 	fork this repository to your own repository and develop
 	and pull request to merge
+    
+    * please execute jslint before you pull request
+
+##### run
+
+	npm start
 
 # spec
 
